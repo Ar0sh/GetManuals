@@ -17,7 +17,7 @@ private string localUrl = @"D:\Manuals";</code></pre>
 
 <p>Service must be configured with local user that has access to remote file server</p>
 <p>Popup for this will show when installing the service using Install.bat</p>
-<p>Can edit following in ProjectInstaller:</p>
+<p>Can edit following in ProjectInstaller.Designer.cs:</p>
 <pre><code class="language-cs">// Uncomment this to enable auto login when installing service, edit with correct username and password.<br>
 //this.serviceProcessInstaller1.Password = @"RemoteSourceAccess(LocalUser)";<br>
 //this.serviceProcessInstaller1.Username = @"PasswordToAccess";</code></pre>
