@@ -5,8 +5,8 @@
 <p>Performs this:</p>
 <ul>
   <li>Checks for new files on source, copy to destination if missing.</li>
-  <li>Checks if newer version of existing files are present on source, deletes old one on destination and copies newer</li>
-  <li>If newer file exist, but current file is in use at destination, the check will skip copying and try again in set check intervals</ul>
+  <li>Checks if newer version of existing files are present on source, deletes old one on destination and copies newer to destination</li>
+  <li>If newer file exist, but current file is in use at destination(i.e. locked file), the check will skip copying and try again in set check interval</ul>
 </ul>
 
 <p>Need to be edited for own use (in GetManualsService.cs):</p>
